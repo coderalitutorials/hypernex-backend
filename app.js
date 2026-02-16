@@ -97,7 +97,7 @@ app.use(express.json());
 
 // CORS setup
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://hypernex-frontend.vercel.app",
   credentials: true,
 }));
 
